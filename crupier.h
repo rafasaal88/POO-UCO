@@ -23,7 +23,7 @@ class Crupier: public Persona{ //La clase crupier hereda de la clase persona
 
 		string getCodigo(){return codigo_;}; //Observador de codigo
 
-		void setCodigo(string codigo){codigo_=codigo;}; //Modificador de codigo
+		void setCodigo(string codigo){this->codigo_=codigo;}; //Modificador de codigo
 };
 
 #endif
