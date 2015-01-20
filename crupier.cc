@@ -14,5 +14,5 @@ Crupier::Crupier(string DNI, string codigo, string nombre, string apellidos, str
 //Constructor de copia
 Crupier::Crupier(const Crupier &c):Persona(c)
 {
-	codigo_=c.codigo_;
+	setCodigo(c.codigo_);
 }
