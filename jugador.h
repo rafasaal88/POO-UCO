@@ -36,8 +36,8 @@ class Jugador: public Persona
 		string getCodigo(){return codigo_;}; //Observador de codigo
 		list<Apuesta>getApuestas(){return apuestas_;}; //Observador de la lista de apuestas
 
-		void setDinero(int dinero){dinero_=dinero;}; //Modificador de dinero
-		void setCodigo(string codigo){codigo_=codigo;}; //Modificador de codigo		
+		void setDinero(int dinero){this->dinero_=dinero;}; //Modificador de dinero
+		void setCodigo(string codigo){this->codigo_=codigo;}; //Modificador de codigo		
 
 		void setApuestas(); //Funcion que rellena la lista de estructura a partir de un fichero de texto
 
