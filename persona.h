@@ -31,13 +31,13 @@ class Persona
 		string getPais(){return pais_;};
 
 		//Modificadores
-		void setDNI(string DNI){DNI_=DNI;};
-		void setNombre(string nombre){nombre_=nombre;};
-		void setApellidos(string apellidos){apellidos_=apellidos;};
-		void setDireccion(string direccion){direccion_=direccion;};
-		void setLocalidad(string localidad){localidad_=localidad;};
-		void setProvincia(string provincia){provincia_=provincia;};
-		void setPais(string pais){pais_=pais;};
+		void setDNI(string DNI){this->DNI_=DNI;};
+		void setNombre(string nombre){this->nombre_=nombre;};
+		void setApellidos(string apellidos){this->apellidos_=apellidos;};
+		void setDireccion(string direccion){this->direccion_=direccion;};
+		void setLocalidad(string localidad){this->localidad_=localidad;};
+		void setProvincia(string provincia){this->provincia_=provincia;};
+		void setPais(string pais){this->pais_=pais;};
 
 		//Observador que devuelve el apellido y el nombre concatenados
 		string getApellidosyNombre(){return apellidos_+", "+nombre_;};
