@@ -20,11 +20,11 @@ Persona::Persona(string DNI, string nombre, string apellidos, string direccion, 
 //Constructor de copia
 Persona::Persona(const Persona &p)
 {
-	DNI_=p.DNI_;
-	nombre_=p.nombre_;
-	apellidos_=p.apellidos_;
-	direccion_=p.direccion_;
-	localidad_=p.localidad_;
-	provincia_=p.provincia_;
-	pais_=p.pais_;
+	setDNI(p.DNI_);
+	setNombre(p.nombre_);
+	setApellidos(p.apellidos_);
+	setDireccion(p.direccion_);
+	setLocalidad(p.localidad_);
+	setProvincia(p.provincia_);
+	setPais(p.pais_);
 }
