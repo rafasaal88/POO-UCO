@@ -19,7 +19,7 @@ GTEST_DIR = /home/rafa/Escritorio/POO-EXAMEN/gtest-1.7.0
 # Where to find user code.
 # USER_DIR = ../samples
 
-# Flags passed to the preprocessor.
+# Flags passed to the preprocessor..
 # Set Google Test's header directory as a system directory, such that
 # the compiler doesn't generate warnings in Google Test headers.
 CPPFLAGS += -isystem $(GTEST_DIR)/include
